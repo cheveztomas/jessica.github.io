@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <link rel="shortcut icon" href="./img/anillo.png" />
+    <title>Bride to be</title>
+    <link rel="stylesheet" type="text/css" href="theme.css"> 
+    <link rel="stylesheet" type="text/css" href="./icons/css/all.min.css"> 
+    <link href="https://fonts.googleapis.com/css?family=Caveat|Quicksand&display=swap" rel="stylesheet">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+  </head>
+  <body>
+    <header class="header">
+      <h1 class="heading">
+        Jessi
+        <span class="heading-subtext"> bride to be!</span>
+      </h1>
+    </header>
+    <a data-scroll class="fixed-button" href="#rsvp" id="rsvpButton">RSVP</a> 
+    <section class="section">
+      <h2 class="sub-heading">Descripción General</h2>
+      <p>¡Hola Jessi!</p>
+      <p>Prepárate para una noche de pura diversión y risas desenfrenadas. Stephanie, Dayana, Katherine e Ivannia te invitan a la despedida de soltera más increíble que jamás hayas experimentado.</p>
+      <p>Fecha: 27/01/2023</p>
+      <p>Lugar: [Lugar secreto que revelaremos pronto]</p>
+      <p>Trae tu energía positiva, tu mejor sonrisa y tus historias más locas, ¡porque esta noche será legendaria!</p>
+      <p>No te preocupes por formalidades, la consigna es cómoda y divertida. ¡Piensa en vestido de baño y canclas glamurosas!</p>
+      <p>Confirma tu asistencia antes de [Fecha límite HOY] y prepárate para una noche llena de sorpresas, juegos y momentos que recordaremos para siempre.</p>
+      <P>¡Esperamos verte ahí para celebrar contigo!</P>
+      <P>Con cariño,</P>
+      <P>Stephanie, Dayana, Katherine e Ivannia 🎉💃👰</P>
+    </section>
+    <section class="section">
+      <h2 class="sub-heading">Los Detalles</h2>
+      <div class="details">
+        <i class="fas fa-calendar-check"></i>
+        <h3 class="details-heading">Cuando</h3>
+        <p>Enero 27, 2023</p>
+        <p>Usted tranquila!</p>
+        <p>Nosotras estresadas!</p>
+        <a title="Add to Calendar" rel="noopener" href="https://calendar.google.com/calendar/event?action=TEMPLATE&tmeid=MG9iajVwMG11c2E5djVra2x0NTBqbzAwa3UgYW5kY2hldmV6QG0&tmsrc=andchevez%40gmail.com" target="_blank" rel="nofollow">Add to Calendar</a>
+      </div>
+      <div class="details">
+        <i class="fas fa-map-marked-alt"></i>
+        <h3 class="details-heading">Ubicación</h3>
+        <p><a rel="noopener" href="https://maps.app.goo.gl/4nTDyntAApS7hDBR8" target="_blank">A la verga!</a>, City, State</p>
+        <img class="resort-image" src="./img/resort.jpeg" alt="Resort" />
+      </div>
+      <div class="details">
+        <i class="fas fa-suitcase"></i>
+        <h3 class="details-heading">Equipaje</h3>
+        <p><b>Guaro, mucho guaro!!!!!!🍾🍻🥂</b></p>
+        <p><b>Anteojos Gigantes con Formas Divertidas 🕶️😎</b></p>
+        <p><b>Pantuflas de Unicornio o Animales 🩴</b></p>
+        <p><b>Tiaras y Coronas Locas 👑</b></p>
+        <p><b>Globos con Mensajes Divertidos 🎈🍆</b></p>
+        <p><b>Camisetas Personalizadas 👕🎽</b></p>
+        <p><b>Confeti 🎊</b></p>
+        <p><b>Cubiertos y Platos con Formas Divertidas 🍽️🍴🥄</b></p>
+      </div>
+      <div class="details">
+        <i class="fas fa-plane-departure"></i>
+        <h3 class="details-heading">Vuelos</h3>
+        <p><b>Se la creyo verdad! ✖️✈️</b></p>
+      </div>
+      <div class="details">
+        <i class="fas fa-asterisk"></i>
+        <h3 class="details-heading">Otras Notas</h3>
+        <p>Recuerde llevar Alka-Negra 💊</p>
+      </div>
+    </section>
+    <script src="./js/smooth-scroll.polyfills.min.js"></script>
+    <script defer>
+      var scroll = new SmoothScroll('a[href*="#"]');
+      var rsvpButton = document.getElementById('rsvpButton')
+      rsvpButton.addEventListener('click',hideButton,false);
+
+      function hideButton() {
+        rsvpButton.style.display = 'none';
+      }   
+    </script>
+  </body>
+</html>
