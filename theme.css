@@ -1,12 +1,13 @@
 *{
     font-family: 'Quicksand', sans-serif;
     font-size: 16px;
-    color: #222;
+    color: #bd8b45;
 }
 html, body{
     margin: 0;
     height: 100vh;
     text-align: center;
+    background-color: rgb(255, 228, 237)
 }
 .header{
     background-image: url(./img/hero.jpeg);
